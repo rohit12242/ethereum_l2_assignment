@@ -46,3 +46,4 @@ contract ProductSmart {
         Product memory po = products[ProductId[index]];
         return (po.Owner,po.Id,po.Name,po.Colour,po.Status);
     }
+}
